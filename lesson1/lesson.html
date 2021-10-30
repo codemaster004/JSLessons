@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // tak sie robi komentaze czyli powinno tu byc wytlumaczenie kodu
+
+        //////////////////////////
+        //  Poczatek zmiennych  //
+        //////////////////////////
+
+        var zmienna1 = "Hello"; // Strign (tekst)
+        let zmienna2 = 55; // Number
+        var zmienna3 = false; // Bool
+
+        const stala1 = "World"; // Stala zmienna (nie moge jej zmieniac  w kodzie potem)
+
+        // lista          0        1         2      3      4
+        var zmienna4 = ["Kuba", "Filip", "Przmke", 66, zmienna1];
+
+        console.log(zmienna4) // Output: ["Kuba", "Filip", "Przmke", 66, zmienna1]
+        console.log(zmienna4[2]) // Output: "Przmke"
+
+        // obiekt
+        var zmienna5 = {
+            // klucz: wartosc
+            "uczen2": "Kuba",
+            "cenakompa": "50"
+        }
+
+        console.log(zmienna5) // Output: {uczen2: "Kuba", cenakompa: "50"}
+        console.log(zmienna5["uczen2"]) // Output: "Kuba"
+        console.log(zmienna5.uczen2) // Output: "Kuba"
+
+
+        ///////////////////////////////////
+        //  Koniec zabawy ze zmniennymi  //
+        //     Poczatek blokow kodow     //
+        ///////////////////////////////////
+
+        // Petla (robie cos kilka raz)
+        //     let i = 0 (tworze zmienna i z wartoscia 0)
+        //     i <= 10 (petla bedzie sie powtarzac tyle razy az i jest mniejsze lub rowne 10)
+        //     i++ (na koniec kazdego powtuzenia zmienna i powiekszy sie o 1)
+        for (let i = 0; i <= 10; i++) {
+            // to co sie dzieje tu bedzie wykonane za kazdym przejsciem petli
+            console.log(i); // moge urzywac zmiennej i oraz pokazac jej wartosc w konsoli
+        }
+
+
+        var warunek1 = true; // powinniscie wiedziec co tu sie dzieje
+        var warunek2 = false;
+
+        // if (condition) {code} (jesli condition/warunek jest prawdziwy kod w srodku zostanei wywolany)
+        if (warunek1) { // warunek1 jest true (false) czyli kod (nie) zostanie pokazany
+            console.log("warunek jest prawdziwy");
+        }
+
+        // ! oznacza ze warunek2 ktory jest false zamienia sie na true. tak samo true na false
+        if (!warunek2) {
+            console.log("hmmm czyli jednak false moze byc true")
+        }
+
+        if(warunek2) {
+            console.log("Tego nie zobaczysz, jak nie lapiesz czemu to przyklad wyzej (to w nawiasach)")
+        } else {
+            // else to druga opcja ktora sie uruchamia jesli if sie nie uruchomi
+            console.log("jesli warunek1 jest falszywy to sie pokaze")
+        }
+
+        // mozemy porownywac rowniez wartosci jak string czy liczby
+        if (zmienna4[0] == zmienna5.uczen2) {
+            console.log("wartosci sa takie same")
+        } else if (zmienna4[1] == "Filip") {
+            // gdyby 'Kuba' i 'Kuba' byly rozne ten nastepny warunek bedzie sprawdzony
+            console.log("druga opcja");
+        }
+
+        if (55 == "55") {
+            // JS ma automatycznie zamienia typy zmiennych na takie mozliwe do pownania
+            // czyli 55 i '55' sa takie same
+            console.log("text i liczba sa dla JS takie same")
+        }
+        if (55 === "55") {
+            // urzywajac === upewniamy saie ze wartosci sa takie same i ich typy tez
+            console.log("A musza byc takie same")
+        }
+
+    </script>
+</body>
+</html>
