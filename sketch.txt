@@ -15,4 +15,12 @@ Lesson 2.
     - new string
     - some math
 
+Lesson 3.
+    - alert
+    - prompt
+    - confirm
+    - more comparison
+    - single line if
+    - logical operators
+
 
