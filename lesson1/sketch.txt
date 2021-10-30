@@ -1,7 +1,0 @@
-1.
-- zmienne
-- typy danych
-- listy
-- obiekty
-- for
-- if

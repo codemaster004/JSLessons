@@ -1,0 +1,18 @@
+Lesson 1.
+    - zmienne
+    - typy danych
+    - listy
+    - obiekty
+    - for
+    - if
+
+Lesson 2.
+    - if in list
+    - list length
+    - if in dict
+    - more types & typeof
+    - type conversion
+    - new string
+    - some math
+
+
