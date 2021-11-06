@@ -7,20 +7,35 @@ Lesson 1.
     - if
 
 Lesson 2.
-    - if in list
-    - list length
-    - if in dict
-    - more types & typeof
-    - type conversion
-    - new string
-    - some math
+    + list length
+    + more types & typeof
+    + type conversion
+    + fstring
+    + some math
+    + if in list
+    + more comparison
+    + single line if
+    + logical operators
+    - switch
 
 Lesson 3.
     - alert
     - prompt
     - confirm
-    - more comparison
-    - single line if
-    - logical operators
+    - functions
+    - function parameters
+    - function return
+    - arrow functions
+    - null default
+    - try
+    - ?.
 
+Lesson 4.
+    - new Object
+    - data types methods
+    - ...
 
+Lesson 5.
+    - 
+
+Need to add:
