@@ -19,14 +19,13 @@ Lesson 2.
     - switch
 
 Lesson 3.
+    + functions
+    + function return
+    + function parameters
+    + arrow functions
     - alert
     - prompt
     - confirm
-    - functions
-    - function parameters
-    - function return
-    - arrow functions
-    - null default
     - try
     - ?.
 
