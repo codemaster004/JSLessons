@@ -22,7 +22,7 @@ Lesson 3.
     + functions
     + function return
     + function parameters
-    + arrow functions
+    - arrow functions
     - alert
     - prompt
     - confirm
