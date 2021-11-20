@@ -30,11 +30,26 @@ Lesson 3.
     - ?.
 
 Lesson 4.
+    + html
+    + innerHTML
+    + querySelector
+    + onclick
+    - addEventLitener
+    + inputs
+    - form
+    - json
+    - storage
+    - requests
+
+Lesson 5.
     - new Object
+    - OOP
+    - .this
+    - methods
     - data types methods
     - ...
 
-Lesson 5.
-    - 
+Lesson 6.
+    - Node Server
 
 Need to add:
