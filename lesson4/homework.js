@@ -5,14 +5,19 @@
 // 1. Po wciśnięciu guzika o id="submit" wywołaj funkcje login()
 
 // 2. Pobierz w funkcji wartości inputów o id="username" i id="password"
+// tip. let username = document...
 
 // 3. Sprawdź czy wartość z inputa #username znajduje się w zmiennej `users` zdefiniowanej poniżej
+// tip. .includes()
 
 // 4. Sprawdź czy wartośś podana w input #password jest taka sama w zmiennej `database` zdefiniowanej poniżej 
+// tip. ...[username] == password
 
 // 5. Jeśli username lub password się nie zgadza w p #username-error lub #password-error dodaj text wiadomości błędu, wiadomość wymyśl sam 
+// tip. .innerHTML
 
 // 6. Jeśli username i password się zgadzają pokaz alert "Brawo jestes zalogowany" 
+
 
 let users = ['filipdabkowski', 'xeorast', 'qba', 'rudaowca', 'smasher']
 let database = {
