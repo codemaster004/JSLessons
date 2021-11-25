@@ -16,7 +16,13 @@ function changeColor(cardID) {
 
     let bgc = div.style.backgroundColor
 
-    div.style.backgroundColor = bgc == 'red' ? 'green' : 'red';
+    let colors = ['0', '1', '2']
+
+    let rNumber = Math.floor(Math.random() * colors.length)
+    
+    console.log(colors[rNumber]);
+
+    div.style.backgroundColor = colors[rNumber];
 
     // if(div.style.backgroundColor == 'red') {
     //     div.style.backgroundColor = 'green';
